@@ -13,6 +13,8 @@
  * formatPrice(25.5)  // 'Bs 25.50'
  * formatPrice(0)     // 'Bs 0.00'
  */
-export function formatPrice(amount) {
-  return `Bs ${amount.toFixed(2)}`;
+export function formatPrice(amount, { width = 0 } = {}) {
+  const value = `Bs ${amount.toFixed(2)}`;
+
+  return width > 0 ? value.padStart(width) : value;
 }
