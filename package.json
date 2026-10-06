@@ -1,0 +1,17 @@
+{
+  "name": "mini-tienda",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mini tienda en Node.js usada en el Laboratorio 3 de Git avanzado y GitFlow",
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test",
+    "verify": "node scripts/verify-lab.mjs",
+    "check:commits": "node scripts/check-commits.mjs",
+    "sandbox": "node scripts/sandbox.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

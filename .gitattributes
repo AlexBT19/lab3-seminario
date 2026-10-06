@@ -1,0 +1,3 @@
+# Evita diferencias CRLF/LF entre Windows, Linux y macOS
+# (los saltos de línea distintos generan conflictos falsos al hacer rebase)
+* text=auto eol=lf
