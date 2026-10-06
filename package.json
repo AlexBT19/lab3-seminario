@@ -1,6 +1,6 @@
 {
   "name": "mini-tienda",
-  "version": "1.0.0",
+ "version": "1.1.0",
   "private": true,
   "description": "Mini tienda en Node.js usada en el Laboratorio 3 de Git avanzado y GitFlow",
   "type": "module",
