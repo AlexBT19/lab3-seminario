@@ -1,3 +1,8 @@
+## [Unreleased]
+
+### Added
+- Sistema de descuentos con códigos SAVE10, SAVE20 y BLACKFRIDAY.
+- Pruebas para la aplicación de descuentos.
 # Changelog
 
 Todos los cambios relevantes de este proyecto se documentan en este archivo.
